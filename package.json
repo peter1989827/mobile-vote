@@ -1,0 +1,51 @@
+{
+  "name": "Outvote",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.2.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-react-native": "^2.3.2",
+    "jest-expo": "~18.0.0",
+    "react-native-scripts": "0.0.40",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "lint": "eslint --fix app/*"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^5.0.0",
+    "axios": "^0.16.2",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "expo": "^18.0.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "prop-types": "^15.5.10",
+    "querystring": "^0.2.0",
+    "react": "16.0.0-alpha.12",
+    "react-native": "github:expo/react-native#sdk-18.0.0",
+    "react-native-chooser": "^1.5.3",
+    "react-native-collapsible": "^0.8.0",
+    "react-native-elements": "^0.14.0",
+    "react-native-modal": "^2.4.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.1",
+    "redux-thunk": "^2.2.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "sdkVersion": "18.0.0",
+    "slug": "Outvote",
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    },
+    "ios": {
+     "bundleIdentifier": "com.bunhouth.outvote",
+    },
+    "android": {
+     "package": "com.bunhouth.outvote"
+    }
+  }
+}
